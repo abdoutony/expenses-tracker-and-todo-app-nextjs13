@@ -48,7 +48,7 @@ export default function Home() {
   };
   return (
     <main className="h-screen flex justify-center items-center ">
-      <div className="w-1/2">
+      <div className="w-1/2 lg:w-1/3">
         <div className="flex flex-col bg-white border shadow-sm rounded-xl p-4 md:p-5 dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7] dark:text-gray-400">
           <h1 className="text-3xl font-bold text text-center">Login</h1>
 

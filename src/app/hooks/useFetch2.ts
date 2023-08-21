@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-
 export default function useFetch(url: string, session: any, count: number) {
   const [data, setData] = useState<any>({});
   const [isLoading, setIsLoading] = useState<boolean>(true);

@@ -1,5 +1,10 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, {
+  useState,
+  useEffect,
+  experimental_useOptimistic as useOptimistic,
+} from "react";
+
 import TotalBalance from "./total-balance";
 import IncomeExpenses from "./income-expenses";
 import HistoryWrapper from "./history-wrapper";
