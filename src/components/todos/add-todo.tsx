@@ -1,6 +1,6 @@
 import React from "react";
 
-export default async function AddTodo() {
+export default function AddTodo() {
   return (
     <div>
       <h3 className="text-3x font-bold">Add new todo</h3>
